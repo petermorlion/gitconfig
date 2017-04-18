@@ -1,9 +1,12 @@
 [user]
 	email = peter.morlion@gmail.com
 	name = Peter Morlion
-
+[push]
+	default = simple
+[core]
+	editor = vim
 [alias]
-    co = checkout
-    br = branch
-    st = status
-    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        co = checkout
+        br = branch
+        st = status
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
